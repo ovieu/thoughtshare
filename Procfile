@@ -1,0 +1,1 @@
+web: bunde exec puma -C config/puma.rb
