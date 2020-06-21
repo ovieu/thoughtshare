@@ -1,1 +1,3 @@
-web: bunde exec puma -C config/puma.rb
+./Procfile
+
+web: bundle exec puma -C config/puma.rb
