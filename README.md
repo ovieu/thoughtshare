@@ -1,17 +1,8 @@
-# Ruby on Rails Tutorial sample application
-
-This is the sample application for
-[*Ruby on Rails Tutorial:
-Learn Web Development with Rails*](https://www.railstutorial.org/)
-(6th Edition)
-by [Michael Hartl](https://www.michaelhartl.com/).
-
-## License
-
-All source code in the [Ruby on Rails Tutorial](https://www.railstutorial.org/)
-is available jointly under the MIT License and the Beerware License. See
-[LICENSE.md](LICENSE.md) for details.
-
+# ThoughtShare 
+Thoughtshare is a Web application for posting and sharing short messages with friends. It is built with Ruby on Rails.
+## Requirements
+1. Postgres
+2. Ruby >= 2.6
 ## Getting started
 
 To get started with the app, clone the repo and then install the needed gems:
@@ -38,5 +29,3 @@ If the test suite passes, you'll be ready to run the app in a local server:
 $ rails server
 ```
 
-For more information, see the
-[*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
