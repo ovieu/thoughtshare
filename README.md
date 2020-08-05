@@ -1,32 +1,89 @@
-# ThoughtShare 
-Thoughtshare is a Web application for posting and sharing short messages with friends. It is built with Ruby on Rails.
+<p align="center"> <img src="app/assets/images/talk-icon.svg" width="15%"> </p>
+<p align="center">
+<img src="https://travis-ci.com/ovieu/Marketplace-Api.svg?token=z4kGJhs5c1saUB4zWbwH&branch=feat/update-readme"/>
+</p>
+<p align="center"> Thoughtshare is an a web application for sharing messages with friends. </p>
 
-## Requirements
-1. Postgres
-2. Ruby >= 2.6
 
-## Getting started
-To get started with the app, clone the repo and then install the needed gems:
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-```
-$ bundle install --without production
-```
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Requirements](#requirements)
+  * [Linux Development Setup](#linux-development-setup)
+  * [Docker Setup](#docker-setup)
+* [Features](#features)
+  * [Sign up](#sign-up)
+  * [Login](#login)
+  * [Message Feed](#message-feed)
+  * [Password Reset](#password-reset)
+* [Tests](#tests)
+  * [Local Develoment Test ](#local-development-test)
+  * [Docker Test](#docker-test)
+* [Upcoming Features](#upcoming-features)
+* [License](#license)
 
-Next, migrate the database:
+## About the Project 
 
-```
-$ rails db:migrate
-```
+<p>
+Thoughtshare is a full stack ruby on rails portfolio application for sharing quick
+short messages with friends. It's a limited immitation of a social network like twitter.
+ The app was built to help me understand how to create a full stack application in ruby on rails
+ with authentication and user profiles. 
+</p>
 
-Finally, run the test suite to verify that everything is working correctly:
+## Getting Started 
+### Requirements
+The following programs are required to run this application:
+- Ruby 2.6 + 
+- Postgresql 11.0 +
+- Imagemagick 7.0 + 
+- Rails 6.0.3
+- AWS S3 sdk 1.3 + 
+- Docker 
 
-```
-$ rails test
-```
+### Linux Development Setup 
+To clone and run this application, you'll need [Git](https://git-scm.com). 
 
-If the test suite passes, you'll be ready to run the app in a local server:
+```bash
+# Clone this repository
+$ git clone https://github.com/ovieu/thoughtshare
 
-```
+# Go into the repository
+$ cd thoughtshare 
+
+# Install dependencies
+$ bundle 
+
+# Update Javascript dependencies
+$ yarn install --check-files
+
+# Setup the database
+$ rails db:create
+$ rails db:schema:load
+$ rails db:seed
+
+# Run the app
 $ rails server
 ```
+
+### Docker Setup 
+
+## Features
+### Sign Up
+### Login 
+### Message Feed 
+### Password Reset
+
+## Tests
+### Local Development Test
+### Docker Test
+
+## Upcoming Features
+- Authenticationi with Devise
+
+## License
+This software is released under the [MIT License](http://www.opensource.org/licenses/MIT).
 
