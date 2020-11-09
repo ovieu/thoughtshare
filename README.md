@@ -2,7 +2,7 @@
 <p align="center">
 <img src="https://travis-ci.com/ovieu/Marketplace-Api.svg?token=z4kGJhs5c1saUB4zWbwH&branch=feat/update-readme"/>
 </p>
-<p align="center", margin-bottom="40px"> Thoughtshare is an a web application for sharing messages with friends. </p>
+<p style="text-align: center; margin-bottom= 40px"> Thoughtshare is an a web application for sharing messages with friends. </p>
 
 
 <!-- TABLE OF CONTENTS -->
